@@ -4,6 +4,9 @@
   "description": "MojiScript CLI",
   "author": "Joel Thoms",
   "license": "MIT",
+  "bin": {
+    "moji": "./src/index.mjs"
+  },
   "scripts": {
     "start": "node --experimental-modules --no-warnings src/index.mjs",
     "build": "eslint . --ext .js,.mjs",
