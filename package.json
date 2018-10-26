@@ -1,7 +1,7 @@
 {
-  "name": "mojiscript-starter-app",
-  "version": "1.1.0",
-  "description": "MojiScript Starter App",
+  "name": "mojiscript-cli",
+  "version": "0.0.1",
+  "description": "MojiScript CLI",
   "author": "Joel Thoms",
   "license": "MIT",
   "scripts": {
@@ -11,7 +11,7 @@
     "watch": "esw -w --fix --ext .js,.mjs"
   },
   "dependencies": {
-    "mojiscript": "^0.4.1"
+    "mojiscript": "^0.10.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
