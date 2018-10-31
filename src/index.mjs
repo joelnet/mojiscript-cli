@@ -5,8 +5,10 @@ import log from 'mojiscript/console/log'
 import run from 'mojiscript/core/run'
 import main from './main'
 
+const state = process.argv.slice (2)
+
 const dependencies = {
   log
 }
 
-run ({ dependencies, main })
+run ({ dependencies, state, main })
